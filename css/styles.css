@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+
+    height: 3000px; /* Para probar el desplazamiento */
+}
+
+
+#banner{
+    background-color: rgb(251, 170, 72);
+    position: fixed;
+    top: 30%;
+    padding: 45px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 20px;
+}
+h2{
+    font-size: 3em;
+}
+p{
+    font-size: 2em;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+}
+.button-group .btn{
+    width: 45%;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px solid black ;
+    background-color: transparent;
+
+}
+.btn-primary{
+    border-radius: 20px;
+    font-size: 2em;
+    border-radius: 20px;
+    border: 4px solid black ;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+img{
+
+    width: 40px;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    transition: all 1s ease;
+    background-color: grey;
+}
+.btn-outline1:hover{
+    background-color: white;
+    transition: all 1s ease;
+}
+.btn-outline2:hover{
+    background-color: white;
+    transition: all 1s ease;
+}
+
+.contacto-banner{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgba(0, 0, 0, 0.236);
+    gap: 10px;
+}
+.btn-general{
+    font-size: 60px;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+}
+.btn-general a{
+    color: rgb(251, 170, 72);
+}
+.btn-redes{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 28px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.btn-facebook{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;      
+    height: 40px;
+    
+    
+}
+.btn-tiktok{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;      
+    height: 40px;
+    
+}
+.btn-whasap{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;      
+    height: 40px;
+    
+}
+.btn-web{
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;      
+    height: 40px;
+    
+    
+}
+.btn-facebook a{
+    color: #1877F2;  
+}
+.btn-tiktok a{
+    color: black;
+}
+.btn-whasap a{
+    color: #25D366;
+}
+.btn-web a{
+    color: black;
+}
+.contacto-banner:hover .btn-redes{
+    opacity: 1;
+    transition: all 1s ease;
+}

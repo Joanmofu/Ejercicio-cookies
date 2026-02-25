@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Banner</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="cookie-banner" id="banner">
+        <div class="header">
+            <h2>🍪 Cookie. Cookie. Cookie.</h2>
+        </div>
+
+        <p class="description">
+            We use cookies to make our site work better by storing limited information about your usage of the site. 
+            <a href="#">Read more here.</a>
+        </p>
+
+        <div class="button-group">
+            <button class="btn btn-outline1">Necessary Only</button>
+            <button class="btn btn-outline2">Customize</button>
+        </div>
+
+        <button class="btn btn-primary" id="btnAcept">
+            <img class="cookie-image" src="images/cookie.svg" alt="Cookie Icon">
+            Accept All Cookies
+        </button>
+    </div>
+
+    <div class="contacto-banner">
+        <div class="btn-general">
+            <a href="#"><i class="fa-solid fa-circle-user"></i></a></i>
+        </div>
+        <div class="btn-redes">
+            <div class="btn-facebook">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="btn-tiktok">
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="btn-whasap">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="btn-web">
+                <a href="#"><i class="fa-regular fa-comments"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const banner = document.getElementById('banner');   
+        const btnAcept = document.getElementById('btnAcept');
+        btnAcept.addEventListener('click', () => {
+            // alert('Thank you for accepting all cookies!');
+            banner.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
