@@ -13,7 +13,6 @@ Este proyecto es un ejercicio práctico de desarrollo web front-end que implemen
 
 * **HTML5:** Estructura de la página y los elementos del DOM.
 * **CSS3:** Estilización, maquetación y animaciones hover.
-* **JavaScript (Vanilla):** Manipulación básica del DOM para la interactividad del banner.
 * **Font Awesome (v6.0.0):** Librería externa utilizada para la iconografía del menú de contacto y redes sociales.
 
 ## 📂 Estructura del Proyecto
